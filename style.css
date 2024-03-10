@@ -15,15 +15,23 @@ body {
 }
 
 .sideBar {
-  background-color: #0ea5e9;
+  background-color: #a78bfa;
   grid-row: 1 / span 2;
 }
 
+svg {
+  height: 20px;
+}
+
+.search {
+  display: flex;
+}
 .header {
   grid-column: 2;
   background-color: white;
+  padding: 0.4rem;
 }
 
 .content {
-  background-color: grey;
+  background-color: #d1d5db;
 }
