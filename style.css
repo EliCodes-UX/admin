@@ -10,6 +10,8 @@ body {
 }
 .container {
   display: grid;
+  height: 100%;
+  width: 100%;
   grid-template-columns: 20vw 80vw;
   grid-template-rows: 10vw 90vw;
 }
@@ -23,8 +25,26 @@ svg {
   height: 20px;
 }
 
+.topHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1em;
+  margin-right: 1em;
+}
 .search {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#search {
+  margin-left: 0.5em;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
 }
 .header {
   grid-column: 2;
