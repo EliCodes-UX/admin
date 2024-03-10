@@ -13,7 +13,7 @@ body {
   height: 100%;
   width: 100%;
   grid-template-columns: 20vw 80vw;
-  grid-template-rows: 10vw 90vw;
+  grid-template-rows: 15vw 85vw;
 }
 
 .sideBar {
@@ -45,6 +45,18 @@ svg {
   flex-direction: row;
   align-content: center;
   align-items: center;
+}
+
+.bottomHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.headBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1em;
 }
 .header {
   grid-column: 2;
