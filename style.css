@@ -10,12 +10,12 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 25vw 75vw;
+  grid-template-columns: 20vw 80vw;
   grid-template-rows: 10vw 90vw;
 }
 
 .sideBar {
-  background-color: aqua;
+  background-color: #0ea5e9;
   grid-row: 1 / span 2;
 }
 
