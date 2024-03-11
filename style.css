@@ -14,6 +14,7 @@ body {
   width: 100%;
   grid-template-columns: 20vw 80vw;
   grid-template-rows: 15vw 85vw;
+  position: fixed;
 }
 
 .sideBar {
@@ -112,8 +113,26 @@ svg {
   padding: 0.3em;
   background-color: white;
   width: 25vw;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .rightSideContent {
   display: flex;
   flex-direction: column;
+}
+.announceContent {
+  border: 2px solid black;
+  margin: 0.4em;
+  border-radius: 5%;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.trendingContent {
+  border: 2px solid black;
+  margin: 0.4em;
+  border-radius: 5%;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.username {
+  font-size: smaller;
 }
