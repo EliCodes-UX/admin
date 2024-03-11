@@ -26,6 +26,12 @@ ul {
 .listItem {
   margin: 2em;
 }
+.sideBarList {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 svg {
   height: 20px;
