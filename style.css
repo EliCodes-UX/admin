@@ -8,13 +8,45 @@ body {
   margin: 0;
   padding: 0;
 }
-.container {
-  display: grid;
-  height: 100%;
-  width: 100%;
-  grid-template-columns: 20vw 80vw;
-  grid-template-rows: 15vw 85vw;
-  position: fixed;
+@media screen and (max-width: 1000px) {
+  /* CSS for smaller screens */
+
+  .container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 15vw 85vw;
+    position: fixed;
+  }
+  .trendingContent {
+    border: 2px solid black;
+    margin: 0.4em;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    height: 17vw;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 12vw 88vw;
+    grid-template-rows: 10vw 90vw;
+    position: fixed;
+  }
+  .trendingContent {
+    border: 2px solid black;
+    margin: 0.4em;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    height: 9vw;
+    overflow: hidden;
+  }
 }
 
 button {
@@ -151,6 +183,7 @@ svg {
 .rightSideContent {
   display: flex;
   flex-direction: column;
+  width: 100vw;
 }
 .announceContent {
   border: 2px solid black;
@@ -159,15 +192,7 @@ svg {
   background-color: white;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
-.trendingContent {
-  border: 2px solid black;
-  margin: 0.4em;
-  border-radius: 5%;
-  background-color: white;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  height: 10vw;
-  overflow: hidden;
-}
+
 .username {
   font-size: smaller;
 }
