@@ -19,6 +19,7 @@ body {
 .sideBar {
   background-color: #a78bfa;
   grid-row: 1 / span 2;
+  box-shadow: inset -4px -2px 9px rgba(0, 0, 0, 0.3);
 }
 .sideBarHeader {
   margin-left: 1em;
@@ -94,4 +95,5 @@ svg {
 
 .content {
   background-color: #d1d5db;
+  box-shadow: inset 0px 6px 7px rgba(0, 0, 0, 0.3);
 }
