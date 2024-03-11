@@ -20,14 +20,21 @@ body {
   background-color: #a78bfa;
   grid-row: 1 / span 2;
 }
+.sideBarHeader {
+  margin-left: 1em;
+}
 ul {
   list-style: none;
 }
 .listItem {
-  margin: 2em;
+  margin-top: 1em;
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  text-decoration: none;
+}
+a.listItem p {
+  margin-left: 0.7rem;
 }
 .sideBarList {
   display: flex;
