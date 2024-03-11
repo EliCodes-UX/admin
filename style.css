@@ -20,6 +20,12 @@ body {
   background-color: #a78bfa;
   grid-row: 1 / span 2;
 }
+ul {
+  list-style: none;
+}
+.listItem {
+  margin: 2em;
+}
 
 svg {
   height: 20px;
