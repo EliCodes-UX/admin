@@ -63,6 +63,15 @@ svg {
 }
 #search {
   margin-left: 0.5em;
+  width: 100%;
+  background: var(--color-light);
+  padding: 0 1.6rem;
+  border-radius: var(--rad);
+  appearance: none; //for iOS input[type="search"] roundedness issue. border-radius alone doesn't work
+  transition: all var(--dur) var(--bez);
+  transition-property: width, border-radius;
+  z-index: 1;
+  position: relative;
 }
 .profile {
   display: flex;
@@ -132,6 +141,8 @@ svg {
   border-radius: 5%;
   background-color: white;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  height: 10vw;
+  overflow: hidden;
 }
 .username {
   font-size: smaller;
