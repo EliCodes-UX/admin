@@ -52,11 +52,14 @@ svg {
   justify-content: space-between;
   flex-direction: row;
 }
-.headBtn {
+.headBtns {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-right: 1em;
+}
+.headBtn {
+  margin: 0.5em;
 }
 .header {
   grid-column: 2;
