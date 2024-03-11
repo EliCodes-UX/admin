@@ -96,6 +96,8 @@ svg {
 .content {
   background-color: #d1d5db;
   box-shadow: inset 0px 6px 7px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
 }
 .projects {
   display: grid;
@@ -110,4 +112,8 @@ svg {
   padding: 0.3em;
   background-color: white;
   width: 25vw;
+}
+.rightSideContent {
+  display: flex;
+  flex-direction: column;
 }
