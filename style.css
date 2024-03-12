@@ -20,7 +20,6 @@ body {
     position: fixed;
   }
   .trendingContent {
-    border: 2px solid black;
     margin: 0.4em;
     border-radius: 5%;
     background-color: white;
@@ -39,7 +38,6 @@ body {
     position: fixed;
   }
   .trendingContent {
-    border: 2px solid black;
     margin: 0.4em;
     border-radius: 5%;
     background-color: white;
@@ -173,8 +171,8 @@ svg {
   margin: 1em;
 }
 .project {
-  border: 2px solid black;
   border-radius: 6%;
+  border-left: 1.2em solid #a78bfa;
   padding: 0.3em;
   background-color: white;
   width: 25vw;
@@ -186,7 +184,6 @@ svg {
   width: 100vw;
 }
 .announceContent {
-  border: 2px solid black;
   margin: 0.4em;
   border-radius: 5%;
   background-color: white;
