@@ -142,6 +142,16 @@ svg {
   justify-content: space-between;
   flex-direction: row;
 }
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.avatar {
+  margin-left: 1em;
+  height: 50px;
+  border-radius: 100%;
+}
 .headBtns {
   display: flex;
   flex-direction: row;
@@ -186,7 +196,7 @@ svg {
 .announceContent {
   display: flex;
   margin: 0.4em;
-  border-radius: 5%;
+  border-radius: 6%;
   background-color: white;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
